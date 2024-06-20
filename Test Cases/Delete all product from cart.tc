@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Delete all product from cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>656745b0-0f6b-4acd-bc79-2d3455e492b8</testCaseGuid>
+</TestCaseEntity>
