@@ -15,21 +15,28 @@
       <guid>2f2dba04-4181-4f0c-aabf-4118782fa8ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Start application</testCaseId>
+      <testCaseId>Test Cases/Test case for test suites/Start application</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d3bda69d-9369-48e1-9771-3aa8763f37f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Add to cart</testCaseId>
+      <testCaseId>Test Cases/Test case for test suites/Add to cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>698157cd-7aaa-4cfb-b083-22660b9e4f51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Delete all product from cart</testCaseId>
+      <testCaseId>Test Cases/Test case for test suites/Delete all product from cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ac9378f-0c36-49e0-a796-38a4138b03b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test case for test suites/End application</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

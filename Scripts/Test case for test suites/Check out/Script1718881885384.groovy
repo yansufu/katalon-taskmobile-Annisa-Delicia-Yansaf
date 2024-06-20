@@ -87,4 +87,3 @@ Mobile.waitForElementPresent(findTestObject('Checkout screen/txt_Congratulation'
 
 Mobile.tap(findTestObject('Checkout screen/btn_OK'), 0)
 
-

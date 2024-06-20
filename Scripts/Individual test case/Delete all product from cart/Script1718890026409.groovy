@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Product screen/btn_cart'), 0)
+WebUI.callTestCase(findTestCase('Test case for test suites/Start application'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Home screen/btn_cart'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Cart screen/title_Shopping Cart'), 0)
 
@@ -29,5 +31,9 @@ Mobile.tap(findTestObject('Cart screen/btn_Confirmation YES'), 0)
 
 Mobile.waitForElementNotPresent(findTestObject('Cart screen/container_product list'), 0)
 
+Mobile.tap(findTestObject('Cart screen/btn_back'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Home screen/title_E-Commerce Android App'), 0)
+
+WebUI.callTestCase(findTestCase('Test case for test suites/End application'), [:], FailureHandling.STOP_ON_FAILURE)
 
