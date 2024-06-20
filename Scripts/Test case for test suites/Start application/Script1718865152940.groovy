@@ -16,9 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.configuration.RunConfiguration
 
-Mobile.startApplication('C:\\Users\\ANNISA D YANSAF\\Katalon Studio\\taskMobile_Ecommerce\\Solodroid_E-CommerceApp Demo_3.2.0.apk', 
-    false)
+String projectDir = RunConfiguration.getProjectDir()
+
+String appPath = projectDir + '/Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+Mobile.startApplication(appPath, false)
 
 Mobile.waitForElementPresent(findTestObject('Home screen/title_E-Commerce Android App'), 0)
 
